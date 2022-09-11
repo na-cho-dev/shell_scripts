@@ -54,6 +54,8 @@ echo " "
 
 echo "You died"
 
+sleep 2
+
 echo " "
 
 echo "Continue? (y/n): "
