@@ -12,7 +12,7 @@ This script add, commit with a the user message and push to the remote server. I
 This script authenticate your local repository to push your files from your local repository to your remote repository. It takes in two parameters. The first one is the name of your private ssh key and the sexond is the name of your remote repository. e.g;
 > addssh  ssh-key  "url of your remote repo"
 
-**NOTE:** To be able to run your script with the prefix `sh`, `bash` or `./`, you would have to add this location of this script to your path. Else you would need the prefix.
+**NOTE:** To be able to run your script without the prefix `sh`, `bash` or `./`, you would have to add this location of this script to your path. Else you would need the prefix.
 
 ### Prequisite
 #### Clone the repository.
