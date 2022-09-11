@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# This script add, commit with a the user message and push to the remote server.
+
 git add .
 
 git commit -m "$1"
