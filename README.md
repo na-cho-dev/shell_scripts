@@ -2,6 +2,7 @@
 
 ### The **crex** script
 This script create a file, changes it permission to be executable by all users and opens the file in `VIM`
+> crex filename
 
 ### The **gcp** script
 This script add, commit with a the user message and push to the remote server. It takes in a parameter for the commit message which would be immediately after the name od the script. e.g;
