@@ -6,8 +6,10 @@
 
 eval "$(ssh-agent)"
 
-ssh-add ~/.ssh/$1
+ssh-add ~/.ssh/"$1"
 
 ssh -T git@github.com
 
 git remote set-url origin "$2"
+
+bash -i
