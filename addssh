@@ -6,8 +6,8 @@
 
 eval "$(ssh-agent)"
 
-ssh-add ~/.ssh/git_connect
+ssh-add ~/.ssh/$1
 
 ssh -T git@github.com
 
-git remote set-url origin "$1"
+git remote set-url origin "$2"
