@@ -23,6 +23,6 @@ git clone https://github.com/Nacho369/shell_scripts.git
 
 In your `home` or `root` directory, open your `.bashrc` file with any terminal editor and type the command below in it. When done save and quit from the file. Then exit the termainal and open it again.
 ```
-export PATH="$PATH:~/.bashrc/shell_scripts"
+export PATH="$PATH:~/shell_scripts"
 ```
 ### After these, you can now run the script without the prefix.
