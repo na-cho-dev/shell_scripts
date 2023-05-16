@@ -2,14 +2,16 @@
 
 ### The **crx** script
 This script create a file, changes it permission to be executable by all users and opens the file in `VIM`
-> crex filename
+> crx filename
 
 ### The **cxb** script (Shell Script)
 This script create a file, with the line `#!/bin/bash` in it, changes the permission to be executable by all users and opens the file in `VIM`
+> cxb filename
 
 ### The **cxp** script (Python Script)
 This script create a file, with the line `#!/usr/bin/python3` in it, changes the permission to be executable by all users and opens
  the file in `VIM`
+> cxp filename
 
 ### The **gacp** script (Git Script)
 This script add, commit with a the user message and push to the remote server. It takes in a parameter for the commit message which would be immediately after the name od the script. e.g;
