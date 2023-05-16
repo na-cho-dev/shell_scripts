@@ -1,0 +1,8 @@
+#!/bin/bash
+
+file=$1
+
+touch $file
+echo "#!/bin/bash" > $file
+chmod a+x $file
+vim $file
