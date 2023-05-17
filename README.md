@@ -39,11 +39,12 @@ This script authenticate your local repository to push your files from your loca
 ### Prequisite
 #### Clone the repository.
 To clone, navigate to your root directory or home directory and clone from there.
-**NOTE: Depending on where you clone the repo, the `export $PATH` will change.** 
 
 ```
 git clone https://github.com/Nacho369/shell_scripts.git
 ```
+
+:round_pushpin::round_pushpin:**NOTE: Depending on where you clone the repo, the `export $PATH` will change.** 
 
 #### Edit your `.bashrc` file
 
