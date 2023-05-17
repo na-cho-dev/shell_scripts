@@ -1,29 +1,32 @@
 # Scripts For ALX SE Programme
 
-### The **crx** script
-This script create a file, changes it permission to be executable by all users and opens the file in `VIM`
-> crx filename
+### The **cx** script
+This script create a file, changes it permission to be executable by all users and opens the file in the `VIM` editor.
+
+> **cx filename**
 
 ### The **cxb** script (Shell Script)
-This script create a file, with the line `#!/bin/bash` in it, changes the permission to be executable by all users and opens the file in `VIM`
-> cxb filename
+This script create a file, with the line `#!/bin/bash` in it, changes the permission to be executable by all users and opens the file in the `VIM` editor.
+
+> **cxb filename**
 
 ### The **cxp** script (Python Script)
-This script create a file, with the line `#!/usr/bin/python3` in it, changes the permission to be executable by all users and opens
- the file in `VIM`
-> cxp filename
+This script create a file, with the line `#!/usr/bin/python3` in it, changes the permission to be executable by all users and opens the file in the `VIM` editor.
+
+> **cxp filename**
 
 ### The **gacp** script (Git Script)
 This script add, commit with a the user message and push to the remote server. It takes in a parameter for the commit message which would be immediately after the name od the script. e.g;
 > gacp  "Your commit message here"
 
-### The addssh script
-This script authenticate your local repository to push your files from your local repository to your remote repository. It takes in two parameters. The first one is the name of your private ssh key and the sexond is the name of your remote repository. e.g;
-> addssh  ssh-key  "url of your remote repo"
+### The **addssh** script
+This script authenticate your local repository to push your files from your local repository to your remote repository. It takes in two parameters. The first one is the file name of your private ssh key and the second is the url of your remote repository. e.g;
 
-**NOTE:** To be able to run your script without the prefix `sh`, `bash` or `./`, you would have to add the location of this script to your path. Else you would need the prefix. Below are the steps.
+> **addssh  ssh-key  "url of your remote repo"**
 
-**NOTE:** You can change the default editor to open your file by changing it in the script.
+**NOTE: To be able to run your script without the prefix `sh`, `bash` or `./`, you would have to add the location of this script to your path. Else you would need the prefix. Below are the steps.**
+
+**NOTE: You can change the default editor to open your file by changing it in the script file.**
 
 ### Prequisite
 #### Clone the repository.
