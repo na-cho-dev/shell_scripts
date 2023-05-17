@@ -1,22 +1,22 @@
 # Scripts For ALX SE Programme
 
 ### The **cx** script
-This script create a file, changes it permission to be executable by all users and opens the file in the `VIM` editor.
+This script create a file, changes it permission to be executable by all users and opens the file in the `VIM` editor. e.g;
 
 > **cx filename**
 
 ### The **cxb** script (Shell Script)
-This script create a file, with the line `#!/bin/bash` in it, changes the permission to be executable by all users and opens the file in the `VIM` editor.
+This script create a file, with the line `#!/bin/bash` in it, changes the permission to be executable by all users and opens the file in the `VIM` editor. e.g;
 
 > **cxb filename**
 
 ### The **cxp** script (Python Script)
-This script create a file, with the line `#!/usr/bin/python3` in it, changes the permission to be executable by all users and opens the file in the `VIM` editor.
+This script create a file, with the line `#!/usr/bin/python3` in it, changes the permission to be executable by all users and opens the file in the `VIM` editor. e.g;
 
 > **cxp filename**
 
 ### The **cxc** script (C Script)
-This script create a file, with basic C language file structure in it, and opens the file in the `VIM` editor.
+This script create a file, with basic C language file structure in it, and opens the file in the `VIM` editor. e.g;
 
 > **cxc filename**
 
