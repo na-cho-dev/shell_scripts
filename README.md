@@ -38,13 +38,26 @@ This script authenticate your local repository to push your files from your loca
 
 ### Prequisite
 #### Clone the repository.
+To clone, navigate to your root directory or home directory and clone from there.
+**NOTE: Depending on where you clone the repo, the `export $PATH` will change.** 
+
 ```
 git clone https://github.com/Nacho369/shell_scripts.git
 ```
+
 #### Edit your `.bashrc` file
 
 In your `home` or `root` directory, open your `.bashrc` file with any terminal editor and type the command below in it. When done save and quit from the file. Then exit the termainal and open it again.
+
+If you cloned into your `/root` directory use this;
+
 ```
 export PATH="$PATH:~/shell_scripts"
+```
+
+If you cloned into your `/home` directory use this;
+
+```
+export PATH="$PATH:/home/shell_scripts"
 ```
 ### After these, you can now run the script without the prefix.
