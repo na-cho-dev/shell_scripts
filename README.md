@@ -24,9 +24,9 @@ This script authenticate your local repository to push your files from your loca
 
 > **addssh  ssh-key  "url of your remote repo"**
 
-:round_pushpin::round_pushpin:**NOTE: To be able to run your script without the prefix `sh`, `bash` or `./`, you would have to add the location of this script to your path. Else you would need the prefix. Below are the steps.**:round_pushpin::round_pushpin:
+:round_pushpin::round_pushpin: **NOTE: To be able to run your script without the prefix `sh`, `bash` or `./`, you would have to add the location of this script to your path. Else you would need the prefix. Below are the steps.**
 
-**NOTE: You can change the default editor to open your file by changing it in the script file.**
+:round_pushpin::round_pushpin: **NOTE: You can change the default editor to open your file by changing it in the script file.**
 
 ### Prequisite
 #### Clone the repository.
