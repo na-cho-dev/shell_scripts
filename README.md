@@ -34,6 +34,8 @@ This script authenticate your local repository to push your files from your loca
 
 :round_pushpin::round_pushpin: **NOTE: You can change the default editor to open your file by changing it in the script file.**
 
+:anchor: **And if you don't like the command name, you can change the file name yourself. I'm quit bad at naming. You can message me what name you chose :yum:**
+
 ### Prequisite
 #### Clone the repository.
 ```
