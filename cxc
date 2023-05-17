@@ -1,0 +1,12 @@
+#!/bin/bash
+
+file=$1
+
+touch $file
+
+echo "#include <stdio.h>" >> $file
+echo -e "\n" >> $file
+echo "int main(void)" >> $file
+echo "{}" >> $file
+
+vim $file

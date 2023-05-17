@@ -15,8 +15,14 @@ This script create a file, with the line `#!/usr/bin/python3` in it, changes the
 
 > **cxp filename**
 
+### The **cxc** script (C Script)
+This script create a file, with basic C language file structure in it, and opens the file in the `VIM` editor.
+
+> **cxc filename**
+
 ### The **gacp** script (Git Script)
 This script add, commit with a the user message and push to the remote server. It takes in a parameter for the commit message which would be immediately after the name od the script. e.g;
+
 > **gacp  "Your commit message here"**
 
 ### The **addssh** script
