@@ -7,6 +7,8 @@ touch $file
 echo "#include <stdio.h>" >> $file
 echo -e "\n" >> $file
 echo "int main(void)" >> $file
-echo "{}" >> $file
+echo "{" >> $file
+echo -e "" >> $file
+echo "}" >> $file
 
 vim $file
