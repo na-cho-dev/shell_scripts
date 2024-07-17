@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+file=$1
+
+touch $file
+echo "#!/usr/bin/node" > $file
+
+chmod u+x $file
+
+code $file

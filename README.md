@@ -28,7 +28,7 @@ This script add, commit with a the user message and push to the remote server. I
 ### The **addssh** script
 This script authenticate your local repository to push your files from your local repository to your remote repository. It takes in two parameters. The first one is the file name of your private ssh key and the second is the url of your remote repository. e.g;
 
-> **addssh  ssh-key  "url of your remote repo"**
+> **addssh  "ssh-key"  "url of your remote repo"**
 
 :round_pushpin::round_pushpin: **NOTE: To be able to run your script without the prefix `sh`, `bash` or `./`, you would have to add the location of this script to your path. Else you would need the prefix. Below are the steps.**
 

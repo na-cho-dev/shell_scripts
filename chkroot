@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+
+# Method 1: Using id command
+if [ "$(id -u)" -eq 0 ]; then
+    echo "You are root (id command)"
+else
+    echo "You are not root (id command)"
+fi
+
+# Method 2: Using whoami command
+if [ "$(whoami)" = "root" ]; then
+    echo "You are root (whoami command)"
+else
+    echo "You are not root (whoami command)"
+fi
+
+# Method 3: Using UID environment variable
+if [ "$UID" -eq 0 ]; then
+    echo "You are root (UID variable)"
+else
+    echo "You are not root (UID variable)"
+fi

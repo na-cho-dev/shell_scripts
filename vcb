@@ -6,6 +6,8 @@ touch $file
 
 echo "#!/usr/bin/env bash" > $file
 
+echo "" >> $file
+
 chmod a+x $file
 
-vim $file
+code $file

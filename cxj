@@ -1,0 +1,9 @@
+#!/bin/bash
+
+file=$1
+
+touch $file
+echo "#!/usr/bin/node" > $file
+
+chmod u+x $file
+vim $file

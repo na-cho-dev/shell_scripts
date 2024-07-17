@@ -1,6 +1,9 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # This script adds ssh to your current local repo for authentication.
+
+# USAGE
+# addssh "FILENAME" "REPOSITORY_URL"
 
 # eval "$(ssh-agent -s)"
 

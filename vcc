@@ -16,4 +16,4 @@ echo -e "" >> $file
 
 echo "}" >> $file
 
-vim $file
+code $file
