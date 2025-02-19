@@ -9,7 +9,7 @@
 
 eval "$(ssh-agent)"
 
-ssh-add ~/.ssh/"$1"
+ssh-add "$1"
 
 ssh -T git@github.com
 

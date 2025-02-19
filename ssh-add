@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+# This script adds ssh to your current local repo for authentication.
+
+# USAGE
+# addssh "ssh-path"
+
+# eval "$(ssh-agent -s)"
+
+eval "$(ssh-agent -s)"
+
+ssh-add $1
+
+ssh -T git@github.com
+
+bash -i
